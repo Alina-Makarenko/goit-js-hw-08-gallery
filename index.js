@@ -141,4 +141,6 @@ listEl.addEventListener("click", (event) => {
 });
 btnEl.addEventListener("click", () => {
   boxEl.classList.remove("is-open");
+  modalImgEl.src = "";
+  modalImgEl.alt = "";
 });
